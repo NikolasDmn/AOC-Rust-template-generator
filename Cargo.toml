@@ -1,7 +1,11 @@
 [package]
-name = "advent_of_code_template"
+name = "aoc_temp"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 
+
+[[bin]]
+name = "aoc_temp"
+path = "./src/main.rs"
